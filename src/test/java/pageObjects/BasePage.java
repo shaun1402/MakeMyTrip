@@ -9,6 +9,7 @@ public class BasePage {
 
 	public BasePage(WebDriver driver) {
 		this.driver = driver;
-		PageFactory.initElements(driver, this);
+		//to manage POM design patter
+		PageFactory.initElements(driver, this); 
 	}
 }

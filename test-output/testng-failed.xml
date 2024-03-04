@@ -15,6 +15,13 @@
           <include name="enter_wrong_info"/>
         </methods>
       </class> <!-- testCases.TC_002_Gift_Card -->
+      <class name="testCases.TC_001_Book_SUV">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="search"/>
+        </methods>
+      </class> <!-- testCases.TC_001_Book_SUV -->
       <class name="testCases.TC_003_Count_AdultCount">
         <methods>
           <include name="teardown"/>

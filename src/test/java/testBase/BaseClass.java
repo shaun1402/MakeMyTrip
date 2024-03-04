@@ -70,7 +70,7 @@ public class BaseClass {
 					return;
 				}
 				
-				driver = new RemoteWebDriver(new URL("http://172.20.10.4:4444"), capabilities);
+				driver = new RemoteWebDriver(new URL("http://192.168.104.125:4444"), capabilities);
 				
 			    }
 

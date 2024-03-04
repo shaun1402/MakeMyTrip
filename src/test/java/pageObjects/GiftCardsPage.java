@@ -10,7 +10,7 @@ public class GiftCardsPage extends BasePage {
 		super(driver);
 	}
 
-	@FindBy(xpath = "//*[@id=\"top-banner\"]/div[2]/div/div[1]/div[2]/div[2]/div[3]/ul/li[3]/div/img")
+	@FindBy(xpath = "//body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[2]/div[3]/ul[1]/li[3]/div[1]/img[1]")
 	WebElement birthday_gift_card;
 
 	@FindBy(name = "senderName")
@@ -28,8 +28,7 @@ public class GiftCardsPage extends BasePage {
 	@FindBy(xpath = "//p[@class='red-text font11 append-top5']")
 	WebElement wrongEmailMessage;
 
-	@FindBy(xpath = "//body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div[2]/div[3]/ul[1]/li[3]/div[1]/img[1]")
-	WebElement birthdayCardTab;
+
 
 	public void click_birthday_gift_card() {
 		JavascriptExecutor jse = (JavascriptExecutor) driver;

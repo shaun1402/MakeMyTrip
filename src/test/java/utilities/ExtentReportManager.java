@@ -74,7 +74,7 @@ public class ExtentReportManager implements ITestListener {
 		test.log(Status.FAIL,result.getName()+" got failed");
 		test.log(Status.INFO, result.getThrowable().getMessage());
 
-		test.addScreenCaptureFromPath("C:\\Users\\2308898\\eclipse-workspace\\MakeMyTrip\\ScreenShots\\Failed.png");
+		test.addScreenCaptureFromPath("C:\\Users\\2308898\\eclipse-workspace\\MakeMyTrip_2\\ScreenShots\\Failed.png");
 	}
 
 	public void onTestSkipped(ITestResult result) {

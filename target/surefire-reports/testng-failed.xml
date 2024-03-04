@@ -22,13 +22,6 @@
           <include name="setup"/>
         </methods>
       </class> <!-- testCases.TC_002_Gift_Card -->
-      <class name="testCases.TC_001_Book_SUV">
-        <methods>
-          <include name="teardown"/>
-          <include name="setup"/>
-          <include name="search"/>
-        </methods>
-      </class> <!-- testCases.TC_001_Book_SUV -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
